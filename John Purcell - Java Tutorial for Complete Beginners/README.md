@@ -2,6 +2,7 @@
 ## Section 1: Intro - What is Java and How It Works
 
 <img src="./img/java_compilation_diagram.png">
+
 1. You write in a `.java` file (text file)
 2. `.java` will be turned into a binary format by `javac` (JDK)
     * `.java` file needs to be turned into a binary file that can be read by computer

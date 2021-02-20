@@ -15,3 +15,18 @@
         * JVM is a virtual machine or simulated computer
         * This enables any computer/machine to run your java file.
     * Binary File --> JRE --> JVM
+
+.java --> .class file
+1. Write code
+2. Compile code `javac FILENAME.java`
+3. Run code `java FILENAME`
+
+# Types
+* primitive types are denoted by lowercase letters
+```Java
+int value = 0;
+```
+* types denoted by uppercase letters are objects/reference to a place in memory
+```Java
+String text = null;
+```

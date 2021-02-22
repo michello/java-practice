@@ -30,3 +30,23 @@ int value = 0;
 ```Java
 String text = null;
 ```
+
+# Classes
+* A class is an object
+* A class can contain:
+    1. methods
+    2. properties, or data
+        - aka instance variables, data or "state"
+
+# Encapsulation
+* the data you have in one class is hidden away from other classes
+* make sure that "sensitive" data is hidden from users.
+* To achieve this, you must:
+    1. declare class variables/attributes as private
+    2. provide public get and set methods to access and update the value of a private variable
+
+# Constructor
+* used to initialize the object
+* called when an instance of the class is created
+
+# Static Variables & Static functions

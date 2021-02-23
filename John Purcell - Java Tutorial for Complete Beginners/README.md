@@ -50,3 +50,27 @@ String text = null;
 * called when an instance of the class is created
 
 # Static Variables & Static functions
+[Difference between static and instance variables](https://softwareengineering.stackexchange.com/a/293480)
+* Class or Static variable/methods belong to the class
+    - Only one copy of this variable that is shared with all instances of that class
+    - If changes are made to that variable, all other instances will see the effect of the changes.
+    - Static variables/methods exist before you make an instance
+    - You can access static variables by the class
+
+* Nonstatic, public variables are instance variables
+* Uses for static variable
+    1. When info is associated with the class and doesn't need to be changed
+    1. When you want a const (`final`)
+        - i.e. public final static int LUCKY_NUMBER = 7;
+    1. Create a counter of how many instances of the class there is
+        - A static variable is shared between all objects
+
+# String Builder and String Formatting
+* In Java, strings are immutable
+```Java
+String info = "";
+info += "My name is Bob.";
+info += " ";
+info += "I am a builder.";
+```
+* You are creating a new string every time you are adding to the string

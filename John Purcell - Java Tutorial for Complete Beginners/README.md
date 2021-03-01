@@ -74,3 +74,12 @@ info += " ";
 info += "I am a builder.";
 ```
 * You are creating a new string every time you are adding to the string
+
+# packages
+1. Enable you to organize code in an organized fashion
+2. Allow you to have classes of the same name in different packages
+
+# Interface
+* 
+
+# private, public, protected methods

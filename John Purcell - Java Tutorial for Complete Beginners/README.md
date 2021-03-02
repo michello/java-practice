@@ -107,3 +107,23 @@ Example:
 * public: any
 * protected: same subclass, same package
 * no modifier: same package only
+
+# Polymorphism
+[W3 School's Java - Polymorphism](https://www.w3schools.com/java/java_polymorphism.asp)
+* polymorphism: "many shapes"
+* Inheritance lets us take on attributes and methods from inherited or parent class
+* Polymorphism lets us use these methods to perform different tasks
+```Java
+class Animal {
+    public void speak() {
+        System.out.println("Grr...");
+    }
+}
+
+class Penguin extends Animal {
+    public void speak() {
+        System.out.println("Squeak, squeak...");
+    }
+}
+```
+* This allows us to perform a single action in different ways.

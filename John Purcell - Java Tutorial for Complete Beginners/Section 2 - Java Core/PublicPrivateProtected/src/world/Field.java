@@ -1,4 +1,4 @@
-package PublicPrivateProtected.src;
+package PublicPrivateProtected.src.world;
 
 public class Field {
     private Plant plant = new Plant();

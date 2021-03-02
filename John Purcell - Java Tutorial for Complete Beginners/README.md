@@ -79,7 +79,31 @@ info += "I am a builder.";
 1. Enable you to organize code in an organized fashion
 2. Allow you to have classes of the same name in different packages
 
+[Java Packages](https://www.tutorialspoint.com/java/java_packages.htm)
+* When compiling programs in a package, compile with the following:
+```
+javac -d Destination_folder file_name.java
+```
+
+Example:
+```
+% javac -d . src/Machine.java
+% javac -d . src/Car.java    
+% javac -d . src/App.java
+```
+
 # Interface
-* 
+* A structure that contains implementable functions
+* Contains behaviors that a class implements.
+* Uses
+    - Only care about the methods (i.e. List interface)
 
 # private, public, protected methods
+* public can be accessed anywhere
+* private can only be accessed where it is declared
+* protected allows you to access the variable within the package, subclass, etc
+
+* private: same class
+* public: any
+* protected: same subclass, same package
+* no modifier: same package only
